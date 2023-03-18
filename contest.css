@@ -1,0 +1,131 @@
+/* Global styles */
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  /* Header styles */
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  .search input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #fff;
+  }
+  
+  .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .buttons button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* About section styles */
+  .about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #f2f2f2;
+  }
+  
+  .tagline1, .tagline2, .tagline3 {
+    flex-basis: 30%;
+    text-align: center;
+  }
+  
+  .tagline1 img, .tagline2 img, .tagline3 img {
+    width: 100%;
+  }
+  
+  .tagline1 h2, .tagline2 h2, .tagline3 h2 {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  .tagline1 p, .tagline2 p, .tagline3 p {
+    margin-top: 10px;
+  }
+  
+  .tagline1 button, .tagline2 button, .tagline3 button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .clock img {
+    height: 100px;
+  }
+  
+  /* Categories section styles */
+  .categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px;
+  }
+  
+  .Electronics, .Clothes, .Gaming, .Mobiles {
+    flex-basis: 48%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .Electronics h3, .Clothes h3, .Gaming h3, .Mobiles h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  
+  .Electronics p, .Clothes p, .Gaming p, .Mobiles p {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .Electronics button, .Clothes button, .Gaming button, .Mobiles button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  /* Footer styles */
+  footer {
+    display: flex;
+    justify-content: space-between;
+  }
